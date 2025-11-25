@@ -72,14 +72,14 @@ export const siteData: SiteData = {
           text: 'Mehr über Elimidia',
           href: '/ueber-uns',
         },
-        backgroundImage: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1920&q=80',
       },
       introduction: {
         id: 'intro',
         title: 'Willkommen bei Elimidia',
         subtitle: 'Qualität und Zuverlässigkeit aus einer Hand',
         description: 'Elimidia vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen und professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
-        imageUrl: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&q=80',
+        imageUrl: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80',
         imagePosition: 'right',
       },
       services: {
@@ -92,7 +92,7 @@ export const siteData: SiteData = {
             icon: 'cocoa',
             title: 'Premium Kakaobohnen',
             description: 'Hochwertige Kakaobohnen aus ausgewählten Anbaugebieten. Für Röstereien, Hersteller und Genussmanufakturen.',
-            imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600&q=80',
+            imageUrl: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80',
             linkText: 'Mehr erfahren',
             linkHref: '/leistungen#kakao',
           },
@@ -164,7 +164,7 @@ export const siteData: SiteData = {
       hero: {
         title: 'Über Elimidia',
         subtitle: 'Lernen Sie uns kennen',
-        backgroundImage: 'https://images.unsplash.com/photo-1542621334-a254cf47733d?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1509785307050-d4066910ec1e?w=1920&q=80',
       },
       story: {
         id: 'our-story',
@@ -219,7 +219,7 @@ export const siteData: SiteData = {
         title: 'Qualität als Versprechen',
         subtitle: 'Unser Anspruch an uns selbst',
         description: 'Bei Elimidia ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne, die wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
-        imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&q=80',
+        imageUrl: 'https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800&q=80',
         imagePosition: 'right',
         backgroundColor: 'light',
       },
@@ -232,14 +232,14 @@ export const siteData: SiteData = {
       hero: {
         title: 'Unsere Leistungen',
         subtitle: 'Premium-Kakao und professionelle Transportlösungen',
-        backgroundImage: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=1920&q=80',
       },
       cocoa: {
         id: 'cocoa-section',
         title: 'Premium Kakaobohnen',
         subtitle: 'Qualität, die man schmeckt',
         description: 'Unsere Kakaobohnen stammen aus sorgfältig ausgewählten Anbaugebieten weltweit. Wir legen größten Wert auf Qualität, nachhaltige Anbaumethoden und faire Handelsbedingungen.\n\nOb Sie eine Rösterei betreiben, Schokolade herstellen oder eine Manufaktur führen – wir liefern Ihnen die Rohstoffe, die Ihre Produkte besonders machen.',
-        imageUrl: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&q=80',
+        imageUrl: 'https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&q=80',
         imagePosition: 'left',
         items: [
           {
@@ -343,7 +343,7 @@ export const siteData: SiteData = {
       hero: {
         title: 'Transport & Logistik',
         subtitle: 'Professionelle Transportlösungen für Ihre Waren',
-        backgroundImage: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1920&q=80',
       },
       overview: {
         id: 'transport-overview',
@@ -443,7 +443,7 @@ export const siteData: SiteData = {
       hero: {
         title: 'Kontakt',
         subtitle: 'Wir freuen uns auf Ihre Anfrage',
-        backgroundImage: 'https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1587734195503-904fca47e0e9?w=1920&q=80',
       },
       formSection: {
         title: 'Schreiben Sie uns',
