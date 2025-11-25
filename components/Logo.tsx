@@ -67,7 +67,7 @@ export default function Logo({ className = '', showText = true, variant = 'defau
             variant === 'light' ? 'text-white' : 'text-cocoa-800'
           }`}
         >
-          Elimedia
+          Elimidia
         </span>
       )}
     </Link>

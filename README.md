@@ -1,6 +1,6 @@
-# Elimedia Website
+# Elimidia Website
 
-Website für **Elimedia** – Ihr Partner für Premium-Kakaobohnen und zuverlässige Transportdienstleistungen.
+Website für **Elimidia** – Ihr Partner für Premium-Kakaobohnen und zuverlässige Transportdienstleistungen.
 
 ## Technologie-Stack
 
@@ -68,7 +68,7 @@ elimedia-website/
 ├── types/
 │   └── index.ts                 # TypeScript-Interfaces
 ├── public/
-│   ├── logo.svg                 # Elimedia Logo
+│   ├── logo.svg                 # Elimidia Logo
 │   ├── logo-icon.svg            # Logo (nur Icon)
 │   └── favicon.svg              # Favicon
 └── tailwind.config.ts           # Tailwind-Konfiguration
@@ -149,7 +149,7 @@ Die Kontaktdaten sind als Platzhalter markiert. Ersetzen Sie diese in der API-Ro
 
 ```typescript
 contact: {
-  company: 'Elimedia',
+  company: 'Elimidia',
   street: 'Josef-Wirth-Str. 10',
   city: '51067 Köln-Holweide',
   country: 'Deutschland',
@@ -204,8 +204,8 @@ npm run build
 
 ## Lizenz
 
-Dieses Projekt wurde speziell für Elimedia erstellt.
+Dieses Projekt wurde speziell für Elimidia erstellt.
 
 ---
 
-Erstellt für **Elimedia** – Handel mit Lebensmitteln & Transportunternehmen
+Erstellt für **Elimidia** – Handel mit Lebensmitteln & Transportunternehmen

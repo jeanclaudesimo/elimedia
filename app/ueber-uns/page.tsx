@@ -7,7 +7,7 @@ import CardGrid from '@/components/CardGrid';
 export const metadata: Metadata = {
   title: 'Über uns',
   description:
-    'Erfahren Sie mehr über Elimedia – Ihre Partner für Premium-Kakaobohnen und zuverlässige Transportdienstleistungen seit 2025.',
+    'Erfahren Sie mehr über Elimidia – Ihre Partner für Premium-Kakaobohnen und zuverlässige Transportdienstleistungen seit 2025.',
 };
 
 export default async function AboutPage() {

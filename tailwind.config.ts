@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Elimedia Brand Colors
+        // Elimidia Brand Colors
         // Primär: Seriöses, dunkles Braun (Kakao / Natur)
         cocoa: {
           50: '#faf6f3',

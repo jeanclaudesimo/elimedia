@@ -1,5 +1,5 @@
 // ==========================================
-// Elimedia Website - TypeScript Interfaces
+// Elimidia Website - TypeScript Interfaces
 // ==========================================
 
 // Navigation
@@ -120,7 +120,7 @@ export interface HomePageData {
   hero: HeroData;
   introduction: Section;
   services: Section;
-  whyElimedia: Section;
+  whyElimidia: Section;
   cta: Section;
 }
 

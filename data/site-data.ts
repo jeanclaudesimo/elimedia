@@ -1,7 +1,7 @@
 import type { SiteData } from '@/types';
 
 // ==========================================
-// Elimedia Website - Complete Site Data
+// Elimidia Website - Complete Site Data
 // ==========================================
 // Diese Daten können später durch eine echte API/CMS ersetzt werden.
 // Alle Texte, Bilder und Konfigurationen sind hier zentralisiert.
@@ -11,9 +11,9 @@ export const siteData: SiteData = {
   // META INFORMATION
   // ==========================================
   meta: {
-    siteName: 'Elimedia',
+    siteName: 'Elimidia',
     slogan: 'Qualität verbindet – von der Bohne bis zur Lieferung',
-    description: 'Elimedia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen. Wir verbinden Qualität mit Zuverlässigkeit.',
+    description: 'Elimidia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen. Wir verbinden Qualität mit Zuverlässigkeit.',
     keywords: ['Kakaobohnen', 'Kakaohandel', 'Transport', 'Logistik', 'Lebensmittelhandel', 'Köln', 'B2B', 'Premium Kakao'],
     foundingDate: '2025-06-30',
   },
@@ -22,7 +22,7 @@ export const siteData: SiteData = {
   // CONTACT & ADDRESS
   // ==========================================
   contact: {
-    company: 'Elimedia',
+    company: 'Elimidia',
     street: 'Josef-Wirth-Str. 10',
     city: '51067 Köln-Holweide',
     country: 'Deutschland',
@@ -61,7 +61,7 @@ export const siteData: SiteData = {
     // ----------------------------------------
     home: {
       hero: {
-        title: 'Elimedia',
+        title: 'Elimidia',
         subtitle: 'Ihr Partner für Premium-Kakao und zuverlässige Transporte',
         description: 'Wir verbinden erstklassigen Kakaohandel mit professioneller Logistik. Vertrauen Sie auf Qualität, Zuverlässigkeit und langjährige Expertise im Lebensmittelhandel.',
         primaryCta: {
@@ -69,16 +69,16 @@ export const siteData: SiteData = {
           href: '/kontakt',
         },
         secondaryCta: {
-          text: 'Mehr über Elimedia',
+          text: 'Mehr über Elimidia',
           href: '/ueber-uns',
         },
         backgroundImage: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1920&q=80',
       },
       introduction: {
         id: 'intro',
-        title: 'Willkommen bei Elimedia',
+        title: 'Willkommen bei Elimidia',
         subtitle: 'Qualität und Zuverlässigkeit aus einer Hand',
-        description: 'Elimedia vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen und professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
+        description: 'Elimidia vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen und professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
         imageUrl: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&q=80',
         imagePosition: 'right',
       },
@@ -116,9 +116,9 @@ export const siteData: SiteData = {
           },
         ],
       },
-      whyElimedia: {
+      whyElimidia: {
         id: 'why-elimedia',
-        title: 'Warum Elimedia?',
+        title: 'Warum Elimidia?',
         subtitle: 'Unsere Werte machen den Unterschied',
         backgroundColor: 'light',
         items: [
@@ -162,7 +162,7 @@ export const siteData: SiteData = {
     // ----------------------------------------
     about: {
       hero: {
-        title: 'Über Elimedia',
+        title: 'Über Elimidia',
         subtitle: 'Lernen Sie uns kennen',
         backgroundImage: 'https://images.unsplash.com/photo-1542621334-a254cf47733d?w=1920&q=80',
       },
@@ -170,7 +170,7 @@ export const siteData: SiteData = {
         id: 'our-story',
         title: 'Unsere Geschichte',
         subtitle: 'Aus Leidenschaft für Qualität',
-        description: 'Elimedia wurde am 30. Juni 2025 in Köln-Holweide gegründet – mit einer klaren Vision: Erstklassigen Kakaohandel und zuverlässige Transportdienstleistungen aus einer Hand anzubieten.\n\nUnser Gründungsteam bringt umfassende Erfahrung im Lebensmittelhandel und in der Logistikbranche mit. Diese Expertise nutzen wir, um unseren Kunden einen Service zu bieten, der höchsten Ansprüchen gerecht wird.\n\nAls junges Unternehmen sind wir agil, kundenorientiert und stets offen für neue Partnerschaften. Wir glauben daran, dass Qualität und Zuverlässigkeit die Grundlage jeder erfolgreichen Geschäftsbeziehung sind.',
+        description: 'Elimidia wurde am 30. Juni 2025 in Köln-Holweide gegründet – mit einer klaren Vision: Erstklassigen Kakaohandel und zuverlässige Transportdienstleistungen aus einer Hand anzubieten.\n\nUnser Gründungsteam bringt umfassende Erfahrung im Lebensmittelhandel und in der Logistikbranche mit. Diese Expertise nutzen wir, um unseren Kunden einen Service zu bieten, der höchsten Ansprüchen gerecht wird.\n\nAls junges Unternehmen sind wir agil, kundenorientiert und stets offen für neue Partnerschaften. Wir glauben daran, dass Qualität und Zuverlässigkeit die Grundlage jeder erfolgreichen Geschäftsbeziehung sind.',
         imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
         imagePosition: 'right',
       },
@@ -210,7 +210,7 @@ export const siteData: SiteData = {
         id: 'our-team',
         title: 'Unser Team',
         subtitle: 'Menschen, die bewegen',
-        description: 'Hinter Elimedia steht ein engagiertes Team mit Leidenschaft für Qualität und Service. Von der Beschaffung über die Logistik bis zum Kundenservice – wir arbeiten Hand in Hand, um Ihnen den besten Service zu bieten.',
+        description: 'Hinter Elimidia steht ein engagiertes Team mit Leidenschaft für Qualität und Service. Von der Beschaffung über die Logistik bis zum Kundenservice – wir arbeiten Hand in Hand, um Ihnen den besten Service zu bieten.',
         imageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80',
         imagePosition: 'left',
       },
@@ -218,7 +218,7 @@ export const siteData: SiteData = {
         id: 'quality-focus',
         title: 'Qualität als Versprechen',
         subtitle: 'Unser Anspruch an uns selbst',
-        description: 'Bei Elimedia ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne, die wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
+        description: 'Bei Elimidia ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne, die wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
         imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&q=80',
         imagePosition: 'right',
         backgroundColor: 'light',
@@ -349,7 +349,7 @@ export const siteData: SiteData = {
         id: 'transport-overview',
         title: 'Unsere Transportleistungen',
         subtitle: 'Maßgeschneidert für Ihre Anforderungen',
-        description: 'Bei Elimedia verstehen wir, dass zuverlässiger Transport das Rückgrat jeder erfolgreichen Lieferkette ist. Unser erfahrenes Logistikteam plant und koordiniert jeden Transport mit größter Sorgfalt.\n\nVon regionalen Lieferungen bis hin zu internationalen Transporten – wir bieten Ihnen die passende Lösung. Dabei achten wir stets auf Termintreue, Sicherheit und kosteneffiziente Routenplanung.',
+        description: 'Bei Elimidia verstehen wir, dass zuverlässiger Transport das Rückgrat jeder erfolgreichen Lieferkette ist. Unser erfahrenes Logistikteam plant und koordiniert jeden Transport mit größter Sorgfalt.\n\nVon regionalen Lieferungen bis hin zu internationalen Transporten – wir bieten Ihnen die passende Lösung. Dabei achten wir stets auf Termintreue, Sicherheit und kosteneffiziente Routenplanung.',
         imageUrl: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80',
         imagePosition: 'right',
       },
@@ -430,7 +430,7 @@ export const siteData: SiteData = {
         id: 'regions',
         title: 'Unsere Reichweite',
         subtitle: 'Wir liefern, wohin Sie es brauchen',
-        description: 'Ob Nahverkehr im Großraum Köln, deutschlandweite Lieferungen oder internationale Transporte nach ganz Europa – Elimedia ist Ihr Partner für zuverlässige Logistik.\n\nUnsere Kernregionen umfassen das gesamte Bundesgebiet mit Schwerpunkt Nordrhein-Westfalen sowie die wichtigsten europäischen Wirtschaftszentren.',
+        description: 'Ob Nahverkehr im Großraum Köln, deutschlandweite Lieferungen oder internationale Transporte nach ganz Europa – Elimidia ist Ihr Partner für zuverlässige Logistik.\n\nUnsere Kernregionen umfassen das gesamte Bundesgebiet mit Schwerpunkt Nordrhein-Westfalen sowie die wichtigsten europäischen Wirtschaftszentren.',
         imageUrl: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80',
         imagePosition: 'left',
       },
@@ -547,7 +547,7 @@ export const siteData: SiteData = {
       name: 'Thomas Müller',
       company: 'Schokoladenmanufaktur Rhein',
       role: 'Geschäftsführer',
-      quote: 'Die Qualität der Kakaobohnen von Elimedia hat uns sofort überzeugt. Zuverlässig, transparent und immer pünktlich – genau der Partner, den wir gesucht haben.',
+      quote: 'Die Qualität der Kakaobohnen von Elimidia hat uns sofort überzeugt. Zuverlässig, transparent und immer pünktlich – genau der Partner, den wir gesucht haben.',
       rating: 5,
     },
     {
@@ -555,7 +555,7 @@ export const siteData: SiteData = {
       name: 'Sandra Weber',
       company: 'Café & Rösterei Kölner Dom',
       role: 'Inhaberin',
-      quote: 'Wir beziehen unsere Kakaobohnen seit dem ersten Tag von Elimedia. Die Beratung ist hervorragend, die Lieferung immer pünktlich. Klare Empfehlung!',
+      quote: 'Wir beziehen unsere Kakaobohnen seit dem ersten Tag von Elimidia. Die Beratung ist hervorragend, die Lieferung immer pünktlich. Klare Empfehlung!',
       rating: 5,
     },
     {
@@ -563,7 +563,7 @@ export const siteData: SiteData = {
       name: 'Michael Becker',
       company: 'Lebensmittelgroßhandel Becker',
       role: 'Logistikleiter',
-      quote: 'Die Transportdienstleistungen von Elimedia sind erstklassig. Flexibel, zuverlässig und mit einem Team, das immer eine Lösung findet.',
+      quote: 'Die Transportdienstleistungen von Elimidia sind erstklassig. Flexibel, zuverlässig und mit einem Team, das immer eine Lösung findet.',
       rating: 5,
     },
   ],
@@ -572,7 +572,7 @@ export const siteData: SiteData = {
   // FOOTER
   // ==========================================
   footer: {
-    description: 'Elimedia ist Ihr zuverlässiger Partner für Premium-Kakaobohnen und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand – seit 2025.',
+    description: 'Elimidia ist Ihr zuverlässiger Partner für Premium-Kakaobohnen und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand – seit 2025.',
     quickLinks: [
       { id: 'footer-about', label: 'Über uns', href: '/ueber-uns' },
       { id: 'footer-services', label: 'Leistungen', href: '/leistungen' },

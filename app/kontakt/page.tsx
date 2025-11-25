@@ -7,7 +7,7 @@ import { IconComponent } from '@/components/CardGrid';
 export const metadata: Metadata = {
   title: 'Kontakt',
   description:
-    'Kontaktieren Sie Elimedia für Anfragen zu Kakaobohnen und Transportdienstleistungen. Wir freuen uns auf Ihre Nachricht.',
+    'Kontaktieren Sie Elimidia für Anfragen zu Kakaobohnen und Transportdienstleistungen. Wir freuen uns auf Ihre Nachricht.',
 };
 
 export default async function ContactPage() {

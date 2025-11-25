@@ -6,7 +6,7 @@ import Testimonials from '@/components/Testimonials';
 
 export default async function HomePage() {
   const siteData = await getSiteData();
-  const { hero, introduction, services, whyElimedia, cta } = siteData.pages.home;
+  const { hero, introduction, services, whyElimidia, cta } = siteData.pages.home;
 
   return (
     <>
@@ -48,25 +48,25 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Why Elimedia */}
+      {/* Why Elimidia */}
       <section
         className={`section-padding ${
-          whyElimedia.backgroundColor === 'light' ? 'bg-white' : 'bg-sand-100'
+          whyElimidia.backgroundColor === 'light' ? 'bg-white' : 'bg-sand-100'
         }`}
       >
         <div className="container-custom">
           <div className="text-center mb-12">
-            {whyElimedia.subtitle && (
+            {whyElimidia.subtitle && (
               <p className="text-navy-600 font-medium mb-2">
-                {whyElimedia.subtitle}
+                {whyElimidia.subtitle}
               </p>
             )}
             <h2 className="text-3xl md:text-4xl font-bold text-cocoa-900">
-              {whyElimedia.title}
+              {whyElimidia.title}
             </h2>
           </div>
-          {whyElimedia.items && (
-            <CardGrid items={whyElimedia.items} columns={4} variant="feature" />
+          {whyElimidia.items && (
+            <CardGrid items={whyElimidia.items} columns={4} variant="feature" />
           )}
         </div>
       </section>

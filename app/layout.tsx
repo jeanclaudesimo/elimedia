@@ -6,11 +6,11 @@ import { getSiteData } from '@/lib/api';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Elimedia - Premium Kakaohandel & Transport',
-    template: '%s | Elimedia',
+    default: 'Elimidia - Premium Kakaohandel & Transport',
+    template: '%s | Elimidia',
   },
   description:
-    'Elimedia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand.',
+    'Elimidia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand.',
   keywords: [
     'Kakaobohnen',
     'Kakaohandel',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     'B2B',
     'Premium Kakao',
   ],
-  authors: [{ name: 'Elimedia' }],
-  creator: 'Elimedia',
-  publisher: 'Elimedia',
+  authors: [{ name: 'Elimidia' }],
+  creator: 'Elimidia',
+  publisher: 'Elimidia',
   formatDetection: {
     email: false,
     address: false,
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'de_DE',
-    siteName: 'Elimedia',
-    title: 'Elimedia - Premium Kakaohandel & Transport',
+    siteName: 'Elimidia',
+    title: 'Elimidia - Premium Kakaohandel & Transport',
     description:
-      'Elimedia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen.',
+      'Elimidia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen.',
   },
   robots: {
     index: true,
