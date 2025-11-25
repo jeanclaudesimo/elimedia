@@ -1,26 +1,12 @@
 import type { SiteData } from '@/types';
-
-// Base URL for API calls - can be changed to external API later
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
+import { siteData } from '@/data/site-data';
 
 /**
- * Fetches the complete site data from the API
- * In production, this can be replaced with a real API endpoint
+ * Returns the complete site data
+ * Imports directly from the data file to work at build time
  */
 export async function getSiteData(): Promise<SiteData> {
-  const baseUrl = API_BASE_URL || (typeof window === 'undefined'
-    ? process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
-    : '');
-
-  const res = await fetch(`${baseUrl}/api/site-data`, {
-    next: { revalidate: 3600 }, // Revalidate every hour
-  });
-
-  if (!res.ok) {
-    throw new Error('Failed to fetch site data');
-  }
-
-  return res.json();
+  return siteData;
 }
 
 /**
@@ -30,30 +16,30 @@ export async function getSiteData(): Promise<SiteData> {
 export async function getPageData<T extends keyof SiteData['pages']>(
   page: T
 ): Promise<SiteData['pages'][T]> {
-  const siteData = await getSiteData();
-  return siteData.pages[page];
+  const data = await getSiteData();
+  return data.pages[page];
 }
 
 /**
  * Fetches navigation data
  */
 export async function getNavigationData(): Promise<SiteData['navigation']> {
-  const siteData = await getSiteData();
-  return siteData.navigation;
+  const data = await getSiteData();
+  return data.navigation;
 }
 
 /**
  * Fetches contact information
  */
 export async function getContactData(): Promise<SiteData['contact']> {
-  const siteData = await getSiteData();
-  return siteData.contact;
+  const data = await getSiteData();
+  return data.contact;
 }
 
 /**
  * Fetches testimonials
  */
 export async function getTestimonials(): Promise<SiteData['testimonials']> {
-  const siteData = await getSiteData();
-  return siteData.testimonials;
+  const data = await getSiteData();
+  return data.testimonials;
 }
