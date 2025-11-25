@@ -1,9 +1,9 @@
 services:
-  elimedia:
+  elimidia:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: elimedia
+    container_name: elimidia
     ports:
       - "3008:3008"
     environment:
@@ -20,27 +20,27 @@ services:
       - "traefik.docker.network=traefik-net"
       
       # HTTP (Port 80) → Redirect auf HTTPS
-      - "traefik.http.routers.elimedia-http.entrypoints=frontendsecure"
-      - "traefik.http.routers.elimedia-http.rule=Host(`www.elimedia.de`)"
-      - "traefik.http.routers.elimedia-http.middlewares=elimedia-https"
+      - "traefik.http.routers.elimidia-http.entrypoints=frontendsecure"
+      - "traefik.http.routers.elimidia-http.rule=Host(`www.elimidia.de`)"
+      - "traefik.http.routers.elimidia-http.middlewares=elimidia-https"
 
-      - "traefik.http.middlewares.elimedia-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.elimidia-https.redirectscheme.scheme=https"
       
-      # Redirect elimedia.de → www.elimedia.de
-      - "traefik.http.routers.elimedia-root.entrypoints=frontendsecure"
-      - "traefik.http.routers.elimedia-root.rule=Host(`elimedia.de`)"
-      - "traefik.http.routers.elimedia-root.middlewares=elimedia-www-redirect"
-      - "traefik.http.routers.elimedia-root.tls=true"
+      # Redirect elimidia.de → www.elimidia.de
+      - "traefik.http.routers.elimidia-root.entrypoints=frontendsecure"
+      - "traefik.http.routers.elimidia-root.rule=Host(`elimidia.de`)"
+      - "traefik.http.routers.elimidia-root.middlewares=elimidia-www-redirect"
+      - "traefik.http.routers.elimidia-root.tls=true"
 
-      - "traefik.http.middlewares.elimedia-www-redirect.redirectregex.regex=^https?://elimedia\\.de(.*)"
-      - "traefik.http.middlewares.elimedia-www-redirect.redirectregex.replacement=https://www.elimedia.de$1"
-      - "traefik.http.middlewares.elimedia-www-redirect.redirectregex.permanent=true"
+      - "traefik.http.middlewares.elimidia-www-redirect.redirectregex.regex=^https?://elimidia\\.de(.*)"
+      - "traefik.http.middlewares.elimidia-www-redirect.redirectregex.replacement=https://www.elimidia.de$1"
+      - "traefik.http.middlewares.elimidia-www-redirect.redirectregex.permanent=true"
       
       # HTTPS Router
-      - "traefik.http.routers.elimedia.entrypoints=frontendsecure"
-      - "traefik.http.routers.elimedia.rule=Host(`www.elimedia.de`)"
-      - "traefik.http.routers.elimedia.tls=true"
-      - "traefik.http.routers.elimedia.tls.certresolver=leresolver"
+      - "traefik.http.routers.elimidia.entrypoints=frontendsecure"
+      - "traefik.http.routers.elimidia.rule=Host(`www.elimidia.de`)"
+      - "traefik.http.routers.elimidia.tls=true"
+      - "traefik.http.routers.elimidia.tls.certresolver=leresolver"
 
 networks:
   traefik-net:
