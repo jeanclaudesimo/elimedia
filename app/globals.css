@@ -1,27 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fdfcfa;
+  --foreground: #2e1b17;
+  --cocoa-primary: #7d4b3a;
+  --navy-primary: #2a4e79;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #182538;
+    --foreground: #f9f6f1;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Base Styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-cocoa-950 antialiased;
+    background: var(--background);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold text-cocoa-900;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
 }
 
+/* Component Styles */
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-cocoa-700 text-white hover:bg-cocoa-800 focus:ring-cocoa-500;
+  }
+
+  .btn-secondary {
+    @apply btn bg-navy-700 text-white hover:bg-navy-800 focus:ring-navy-500;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-cocoa-700 text-cocoa-700 hover:bg-cocoa-700 hover:text-white focus:ring-cocoa-500;
+  }
+
+  .btn-outline-light {
+    @apply btn border-2 border-white text-white hover:bg-white hover:text-cocoa-800 focus:ring-white;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-card p-6 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .card-hover {
+    @apply card hover:-translate-y-1;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-sand-300 bg-white text-cocoa-900 placeholder-cocoa-400 focus:border-navy-500 focus:ring-2 focus:ring-navy-200 focus:outline-none transition-all duration-200;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-cocoa-700 mb-2;
+  }
+
+  .section-title {
+    @apply text-h2 text-cocoa-900 mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-cocoa-600 mb-8 max-w-2xl;
+  }
+
+  .link {
+    @apply text-navy-600 hover:text-navy-800 underline-offset-4 hover:underline;
+  }
+
+  .nav-link {
+    @apply text-cocoa-700 hover:text-cocoa-900 font-medium transition-colors;
+  }
+
+  .nav-link-active {
+    @apply text-cocoa-900 border-b-2 border-cocoa-700;
+  }
+}
+
+/* Utility Classes */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cocoa-700 to-navy-700;
+  }
+
+  .bg-gradient-hero {
+    @apply bg-gradient-to-br from-cocoa-900 via-cocoa-800 to-navy-900;
+  }
+
+  .bg-section-light {
+    @apply bg-sand-100;
+  }
+
+  .bg-section-dark {
+    @apply bg-cocoa-900 text-white;
+  }
+
+  .overlay {
+    @apply absolute inset-0 bg-black/50;
+  }
+
+  .overlay-gradient {
+    @apply absolute inset-0 bg-gradient-to-r from-cocoa-950/80 to-cocoa-900/60;
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f6f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d3b19a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bf8e72;
 }
