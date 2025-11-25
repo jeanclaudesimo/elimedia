@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: elimidia
     ports:
-      - "3008:3008"
+      - "3010:3010"
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
