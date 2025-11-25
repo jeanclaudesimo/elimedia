@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSiteData } from '@/lib/api';
 import HeroSection from '@/components/HeroSection';
-import Section, { CTASection } from '@/components/Section';
+import { CTASection } from '@/components/Section';
 import CardGrid from '@/components/CardGrid';
 
 export const metadata: Metadata = {
