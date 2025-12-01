@@ -1,0 +1,41 @@
+<svg width="300" height="100" viewBox="0 0 300 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon -->
+  <g transform="translate(10, 15)">
+    <!-- Abstract flowing shapes representing trade/movement -->
+    <!-- Main arc - represents connection/trade flow -->
+    <path
+      d="M12 48 Q 24 12, 48 24 Q 60 30, 60 48"
+      stroke="#ffffff"
+      stroke-width="6"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <!-- Secondary arc - represents return/exchange -->
+    <path
+      d="M18 54 Q 36 42, 54 54"
+      stroke="#e8d5c4"
+      stroke-width="4.5"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <!-- Three dots representing goods/products in motion -->
+    <circle cx="21" cy="36" r="6" fill="#ffffff" />
+    <circle cx="36" cy="27" r="6" fill="#ffffff" />
+    <circle cx="51" cy="36" r="6" fill="#e8d5c4" />
+    <!-- Small arrow indicating direction/delivery -->
+    <path
+      d="M57 18 L 66 18 M 61.5 13.5 L 66 18 L 61.5 22.5"
+      stroke="#ffffff"
+      stroke-width="3.75"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+
+  <!-- Text IMIDIA -->
+  <text x="100" y="55" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#ffffff">IMIDIA</text>
+
+  <!-- Tagline -->
+  <text x="100" y="75" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" fill="#d4c4b0">HANDEL &amp; TRANSPORT</text>
+</svg>

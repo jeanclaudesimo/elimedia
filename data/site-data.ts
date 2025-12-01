@@ -1,7 +1,7 @@
 import type { SiteData } from '@/types';
 
 // ==========================================
-// Elimidia Website - Complete Site Data
+// IMIDIA Website - Complete Site Data
 // ==========================================
 // Diese Daten können später durch eine echte API/CMS ersetzt werden.
 // Alle Texte, Bilder und Konfigurationen sind hier zentralisiert.
@@ -11,10 +11,10 @@ export const siteData: SiteData = {
   // META INFORMATION
   // ==========================================
   meta: {
-    siteName: 'Elimidia',
+    siteName: 'IMIDIA',
     slogan: 'Qualität verbindet – von der Bohne bis zur Lieferung',
-    description: 'Elimidia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen. Wir verbinden Qualität mit Zuverlässigkeit.',
-    keywords: ['Kakaobohnen', 'Kakaohandel', 'Transport', 'Logistik', 'Lebensmittelhandel', 'Köln', 'B2B', 'Premium Kakao'],
+    description: 'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen. Wir verbinden Qualität mit Zuverlässigkeit.',
+    keywords: ['Kakaobohnen', 'Kakaopulver', 'Kakaohandel', 'Transport', 'Logistik', 'Lebensmittelhandel', 'Köln', 'B2B', 'Premium Kakao', 'Schokolade'],
     foundingDate: '2025-06-30',
   },
 
@@ -22,13 +22,15 @@ export const siteData: SiteData = {
   // CONTACT & ADDRESS
   // ==========================================
   contact: {
-    company: 'Elimidia',
+    company: 'IMIDIA Handel, Vertrieb und Service',
     street: 'Josef-Wirth-Str. 10',
     city: '51067 Köln-Holweide',
     country: 'Deutschland',
-    phone: '+49 (0)221 0000000', // Platzhalter
-    email: 'info@elimedia.de', // Platzhalter
-    openingHours: 'Mo–Fr: 08:00–18:00 Uhr',
+    phone: '+49 157 88272585',
+    whatsapp: '+49 157 88272585',
+    email: 'info@imidia.de',
+    openingHours: 'Mo–Fr: 08:00–16:30 Uhr',
+    vatId: 'USt-IdNr.: folgt',
   },
 
   // ==========================================
@@ -61,25 +63,25 @@ export const siteData: SiteData = {
     // ----------------------------------------
     home: {
       hero: {
-        title: 'Elimidia',
-        subtitle: 'Ihr Partner für Premium-Kakao und zuverlässige Transporte',
-        description: 'Wir verbinden erstklassigen Kakaohandel mit professioneller Logistik. Vertrauen Sie auf Qualität, Zuverlässigkeit und langjährige Expertise im Lebensmittelhandel.',
+        title: 'IMIDIA',
+        subtitle: 'Ihr Partner für Premium-Kakaobohnen, Kakaopulver und zuverlässige Transporte',
+        description: 'Wir verbinden erstklassigen Handel mit Kakaobohnen und Kakaopulver mit professioneller Logistik. Vertrauen Sie auf Qualität, Zuverlässigkeit und Expertise im Lebensmittelhandel.',
         primaryCta: {
           text: 'Jetzt anfragen',
           href: '/kontakt',
         },
         secondaryCta: {
-          text: 'Mehr über Elimidia',
+          text: 'Mehr über IMIDIA',
           href: '/ueber-uns',
         },
-        backgroundImage: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=1920&q=80',
       },
       introduction: {
         id: 'intro',
-        title: 'Willkommen bei Elimidia',
+        title: 'Willkommen bei IMIDIA',
         subtitle: 'Qualität und Zuverlässigkeit aus einer Hand',
-        description: 'Elimidia vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen und professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
-        imageUrl: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80',
+        description: 'IMIDIA Handel, Vertrieb und Service vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen und Kakaopulver sowie professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
+        imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80',
         imagePosition: 'right',
       },
       services: {
@@ -90,9 +92,9 @@ export const siteData: SiteData = {
           {
             id: 'cocoa',
             icon: 'cocoa',
-            title: 'Premium Kakaobohnen',
-            description: 'Hochwertige Kakaobohnen aus ausgewählten Anbaugebieten. Für Röstereien, Hersteller und Genussmanufakturen.',
-            imageUrl: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80',
+            title: 'Kakaobohnen & Kakaopulver',
+            description: 'Hochwertige Kakaobohnen und Kakaopulver aus ausgewählten Anbaugebieten. Für Röstereien, Hersteller und Genussmanufakturen.',
+            imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=600&q=80',
             linkText: 'Mehr erfahren',
             linkHref: '/leistungen#kakao',
           },
@@ -110,15 +112,15 @@ export const siteData: SiteData = {
             icon: 'handshake',
             title: 'B2B Partnerschaften',
             description: 'Individuelle Lösungen für Geschäftskunden. Von der Einzellieferung bis zum langfristigen Rahmenvertrag.',
-            imageUrl: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80',
+            imageUrl: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=600&q=80',
             linkText: 'Kontaktieren Sie uns',
             linkHref: '/kontakt',
           },
         ],
       },
-      whyElimidia: {
-        id: 'why-elimedia',
-        title: 'Warum Elimidia?',
+      whyImidia: {
+        id: 'why-imidia',
+        title: 'Warum IMIDIA?',
         subtitle: 'Unsere Werte machen den Unterschied',
         backgroundColor: 'light',
         items: [
@@ -162,16 +164,16 @@ export const siteData: SiteData = {
     // ----------------------------------------
     about: {
       hero: {
-        title: 'Über Elimidia',
+        title: 'Über IMIDIA',
         subtitle: 'Lernen Sie uns kennen',
-        backgroundImage: 'https://images.unsplash.com/photo-1509785307050-d4066910ec1e?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1920&q=80',
       },
       story: {
         id: 'our-story',
         title: 'Unsere Geschichte',
         subtitle: 'Aus Leidenschaft für Qualität',
-        description: 'Elimidia wurde am 30. Juni 2025 in Köln-Holweide gegründet – mit einer klaren Vision: Erstklassigen Kakaohandel und zuverlässige Transportdienstleistungen aus einer Hand anzubieten.\n\nUnser Gründungsteam bringt umfassende Erfahrung im Lebensmittelhandel und in der Logistikbranche mit. Diese Expertise nutzen wir, um unseren Kunden einen Service zu bieten, der höchsten Ansprüchen gerecht wird.\n\nAls junges Unternehmen sind wir agil, kundenorientiert und stets offen für neue Partnerschaften. Wir glauben daran, dass Qualität und Zuverlässigkeit die Grundlage jeder erfolgreichen Geschäftsbeziehung sind.',
-        imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+        description: 'IMIDIA Handel, Vertrieb und Service wurde am 30. Juni 2025 in Köln-Holweide gegründet – mit einer klaren Vision: Erstklassigen Handel mit Kakaobohnen und Kakaopulver sowie zuverlässige Transportdienstleistungen aus einer Hand anzubieten.\n\nUnser Gründungsteam bringt umfassende Erfahrung im Lebensmittelhandel und in der Logistikbranche mit. Diese Expertise nutzen wir, um unseren Kunden einen Service zu bieten, der höchsten Ansprüchen gerecht wird.\n\nAls junges Unternehmen sind wir agil, kundenorientiert und stets offen für neue Partnerschaften. Wir glauben daran, dass Qualität und Zuverlässigkeit die Grundlage jeder erfolgreichen Geschäftsbeziehung sind.',
+        imageUrl: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&q=80',
         imagePosition: 'right',
       },
       values: {
@@ -210,7 +212,7 @@ export const siteData: SiteData = {
         id: 'our-team',
         title: 'Unser Team',
         subtitle: 'Menschen, die bewegen',
-        description: 'Hinter Elimidia steht ein engagiertes Team mit Leidenschaft für Qualität und Service. Von der Beschaffung über die Logistik bis zum Kundenservice – wir arbeiten Hand in Hand, um Ihnen den besten Service zu bieten.',
+        description: 'Hinter IMIDIA steht ein engagiertes Team mit Leidenschaft für Qualität und Service. Von der Beschaffung über die Logistik bis zum Kundenservice – wir arbeiten Hand in Hand, um Ihnen den besten Service zu bieten.',
         imageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80',
         imagePosition: 'left',
       },
@@ -218,8 +220,8 @@ export const siteData: SiteData = {
         id: 'quality-focus',
         title: 'Qualität als Versprechen',
         subtitle: 'Unser Anspruch an uns selbst',
-        description: 'Bei Elimidia ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne, die wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
-        imageUrl: 'https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800&q=80',
+        description: 'Bei IMIDIA ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne und jedes Kakaopulver, das wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
+        imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80',
         imagePosition: 'right',
         backgroundColor: 'light',
       },
@@ -231,22 +233,22 @@ export const siteData: SiteData = {
     services: {
       hero: {
         title: 'Unsere Leistungen',
-        subtitle: 'Premium-Kakao und professionelle Transportlösungen',
-        backgroundImage: 'https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=1920&q=80',
+        subtitle: 'Premium-Kakaobohnen, Kakaopulver und professionelle Transportlösungen',
+        backgroundImage: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=1920&q=80',
       },
       cocoa: {
         id: 'cocoa-section',
-        title: 'Premium Kakaobohnen',
+        title: 'Kakaobohnen & Kakaopulver',
         subtitle: 'Qualität, die man schmeckt',
-        description: 'Unsere Kakaobohnen stammen aus sorgfältig ausgewählten Anbaugebieten weltweit. Wir legen größten Wert auf Qualität, nachhaltige Anbaumethoden und faire Handelsbedingungen.\n\nOb Sie eine Rösterei betreiben, Schokolade herstellen oder eine Manufaktur führen – wir liefern Ihnen die Rohstoffe, die Ihre Produkte besonders machen.',
-        imageUrl: 'https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&q=80',
+        description: 'Unsere Kakaobohnen und unser Kakaopulver stammen aus sorgfältig ausgewählten Anbaugebieten weltweit. Wir legen größten Wert auf Qualität, nachhaltige Anbaumethoden und faire Handelsbedingungen.\n\nOb Sie eine Rösterei betreiben, Schokolade herstellen oder eine Manufaktur führen – wir liefern Ihnen die Rohstoffe, die Ihre Produkte besonders machen.',
+        imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80',
         imagePosition: 'left',
         items: [
           {
             id: 'cocoa-origin',
             icon: 'map',
             title: 'Ausgewählte Herkunft',
-            description: 'Kakaobohnen aus den besten Anbauregionen Westafrikas, Südamerikas und Asiens.',
+            description: 'Kakaobohnen und Kakaopulver aus den besten Anbauregionen Westafrikas, Südamerikas und Asiens.',
           },
           {
             id: 'cocoa-quality',
@@ -258,7 +260,7 @@ export const siteData: SiteData = {
             id: 'cocoa-variety',
             icon: 'layers',
             title: 'Vielfältige Sorten',
-            description: 'Criollo, Forastero, Trinitario – wir bieten die passende Sorte für Ihr Produkt.',
+            description: 'Criollo, Forastero, Trinitario – wir bieten die passende Sorte für Ihr Produkt. Dazu hochwertiges Kakaopulver.',
           },
           {
             id: 'cocoa-quantity',
@@ -343,13 +345,13 @@ export const siteData: SiteData = {
       hero: {
         title: 'Transport & Logistik',
         subtitle: 'Professionelle Transportlösungen für Ihre Waren',
-        backgroundImage: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80',
       },
       overview: {
         id: 'transport-overview',
         title: 'Unsere Transportleistungen',
         subtitle: 'Maßgeschneidert für Ihre Anforderungen',
-        description: 'Bei Elimidia verstehen wir, dass zuverlässiger Transport das Rückgrat jeder erfolgreichen Lieferkette ist. Unser erfahrenes Logistikteam plant und koordiniert jeden Transport mit größter Sorgfalt.\n\nVon regionalen Lieferungen bis hin zu internationalen Transporten – wir bieten Ihnen die passende Lösung. Dabei achten wir stets auf Termintreue, Sicherheit und kosteneffiziente Routenplanung.',
+        description: 'Bei IMIDIA verstehen wir, dass zuverlässiger Transport das Rückgrat jeder erfolgreichen Lieferkette ist. Unser erfahrenes Logistikteam plant und koordiniert jeden Transport mit größter Sorgfalt.\n\nVon regionalen Lieferungen bis hin zu internationalen Transporten – wir bieten Ihnen die passende Lösung. Dabei achten wir stets auf Termintreue, Sicherheit und kosteneffiziente Routenplanung.',
         imageUrl: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80',
         imagePosition: 'right',
       },
@@ -430,7 +432,7 @@ export const siteData: SiteData = {
         id: 'regions',
         title: 'Unsere Reichweite',
         subtitle: 'Wir liefern, wohin Sie es brauchen',
-        description: 'Ob Nahverkehr im Großraum Köln, deutschlandweite Lieferungen oder internationale Transporte nach ganz Europa – Elimidia ist Ihr Partner für zuverlässige Logistik.\n\nUnsere Kernregionen umfassen das gesamte Bundesgebiet mit Schwerpunkt Nordrhein-Westfalen sowie die wichtigsten europäischen Wirtschaftszentren.',
+        description: 'Ob Nahverkehr im Großraum Köln, deutschlandweite Lieferungen oder internationale Transporte nach ganz Europa – IMIDIA ist Ihr Partner für zuverlässige Logistik.\n\nUnsere Kernregionen umfassen das gesamte Bundesgebiet mit Schwerpunkt Nordrhein-Westfalen sowie die wichtigsten europäischen Wirtschaftszentren.',
         imageUrl: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80',
         imagePosition: 'left',
       },
@@ -443,14 +445,15 @@ export const siteData: SiteData = {
       hero: {
         title: 'Kontakt',
         subtitle: 'Wir freuen uns auf Ihre Anfrage',
-        backgroundImage: 'https://images.unsplash.com/photo-1587734195503-904fca47e0e9?w=1920&q=80',
+        backgroundImage: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1920&q=80',
       },
       formSection: {
         title: 'Schreiben Sie uns',
-        description: 'Haben Sie Fragen zu unseren Kakaobohnen oder benötigen Sie ein Transportangebot? Füllen Sie einfach das Formular aus – wir melden uns schnellstmöglich bei Ihnen.',
+        description: 'Haben Sie Fragen zu unseren Kakaobohnen oder Kakaopulver, oder benötigen Sie ein Transportangebot? Füllen Sie einfach das Formular aus – wir melden uns schnellstmöglich bei Ihnen.',
       },
       inquiryTypes: [
         { value: 'kakaobohnen', label: 'Kakaobohnen' },
+        { value: 'kakaopulver', label: 'Kakaopulver' },
         { value: 'transport', label: 'Transport' },
         { value: 'beides', label: 'Beides' },
         { value: 'sonstiges', label: 'Sonstiges' },
@@ -525,7 +528,7 @@ export const siteData: SiteData = {
             {
               id: 'faq-9',
               question: 'Wie kann ich ein Angebot anfordern?',
-              answer: 'Am einfachsten über unser Kontaktformular oder per E-Mail an info@elimedia.de. Nennen Sie uns Ihre Anforderungen (Produkt, Menge, Lieferort), und wir erstellen Ihnen ein individuelles Angebot.',
+              answer: 'Am einfachsten über unser Kontaktformular oder per E-Mail an info@imidia.de. Nennen Sie uns Ihre Anforderungen (Produkt, Menge, Lieferort), und wir erstellen Ihnen ein individuelles Angebot.',
             },
             {
               id: 'faq-10',
@@ -547,7 +550,7 @@ export const siteData: SiteData = {
       name: 'Thomas Müller',
       company: 'Schokoladenmanufaktur Rhein',
       role: 'Geschäftsführer',
-      quote: 'Die Qualität der Kakaobohnen von Elimidia hat uns sofort überzeugt. Zuverlässig, transparent und immer pünktlich – genau der Partner, den wir gesucht haben.',
+      quote: 'Die Qualität der Kakaobohnen und des Kakaopulvers von IMIDIA hat uns sofort überzeugt. Zuverlässig, transparent und immer pünktlich – genau der Partner, den wir gesucht haben.',
       rating: 5,
     },
     {
@@ -555,7 +558,7 @@ export const siteData: SiteData = {
       name: 'Sandra Weber',
       company: 'Café & Rösterei Kölner Dom',
       role: 'Inhaberin',
-      quote: 'Wir beziehen unsere Kakaobohnen seit dem ersten Tag von Elimidia. Die Beratung ist hervorragend, die Lieferung immer pünktlich. Klare Empfehlung!',
+      quote: 'Wir beziehen unsere Kakaobohnen seit dem ersten Tag von IMIDIA. Die Beratung ist hervorragend, die Lieferung immer pünktlich. Klare Empfehlung!',
       rating: 5,
     },
     {
@@ -563,7 +566,7 @@ export const siteData: SiteData = {
       name: 'Michael Becker',
       company: 'Lebensmittelgroßhandel Becker',
       role: 'Logistikleiter',
-      quote: 'Die Transportdienstleistungen von Elimidia sind erstklassig. Flexibel, zuverlässig und mit einem Team, das immer eine Lösung findet.',
+      quote: 'Die Transportdienstleistungen von IMIDIA sind erstklassig. Flexibel, zuverlässig und mit einem Team, das immer eine Lösung findet.',
       rating: 5,
     },
   ],
@@ -572,7 +575,7 @@ export const siteData: SiteData = {
   // FOOTER
   // ==========================================
   footer: {
-    description: 'Elimidia ist Ihr zuverlässiger Partner für Premium-Kakaobohnen und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand – seit 2025.',
+    description: 'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für Premium-Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand – seit 2025.',
     quickLinks: [
       { id: 'footer-about', label: 'Über uns', href: '/ueber-uns' },
       { id: 'footer-services', label: 'Leistungen', href: '/leistungen' },

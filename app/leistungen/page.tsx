@@ -5,9 +5,9 @@ import { CTASection } from '@/components/Section';
 import CardGrid from '@/components/CardGrid';
 
 export const metadata: Metadata = {
-  title: 'Leistungen',
+  title: 'Leistungen | IMIDIA',
   description:
-    'Entdecken Sie unsere Leistungen: Premium-Kakaobohnen aus ausgewählten Anbaugebieten und professionelle Transportdienstleistungen.',
+    'Entdecken Sie unsere Leistungen: Premium-Kakaobohnen und Kakaopulver aus ausgewählten Anbaugebieten sowie professionelle Transportdienstleistungen.',
 };
 
 export default async function ServicesPage() {

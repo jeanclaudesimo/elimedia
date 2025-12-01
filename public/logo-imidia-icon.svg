@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Abstract flowing shapes representing trade/movement -->
+  <!-- Main arc - represents connection/trade flow -->
+  <path
+    d="M33 133 Q 66 33, 133 66 Q 166 83, 166 133"
+    stroke="#7d4b3a"
+    stroke-width="16"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- Secondary arc - represents return/exchange -->
+  <path
+    d="M50 150 Q 100 116, 150 150"
+    stroke="#2a4e79"
+    stroke-width="12"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- Three dots representing goods/products in motion -->
+  <circle cx="58" cy="100" r="16" fill="#7d4b3a" />
+  <circle cx="100" cy="75" r="16" fill="#c4956a" />
+  <circle cx="142" cy="100" r="16" fill="#2a4e79" />
+  <!-- Small arrow indicating direction/delivery -->
+  <path
+    d="M158 50 L 183 50 M 170 37 L 183 50 L 170 63"
+    stroke="#7d4b3a"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>

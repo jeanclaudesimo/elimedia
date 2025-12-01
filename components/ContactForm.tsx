@@ -34,11 +34,30 @@ export default function ContactForm({ inquiryTypes }: ContactFormProps) {
     e.preventDefault();
     setStatus('submitting');
 
-    // Simuliere API-Aufruf
-    // In Produktion hier den echten API-Endpunkt aufrufen
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      console.log('Form submitted:', formData);
+      // Erstelle den Betreff basierend auf der Anfrageart
+      const inquiryLabel = inquiryTypes.find(t => t.value === formData.inquiryType)?.label || formData.inquiryType;
+      const subject = `Anfrage: ${inquiryLabel}${formData.company ? ` - ${formData.company}` : ''}`;
+
+      // Sende Daten an unsere interne API (vermeidet CORS-Probleme)
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone || '',
+          subject: subject,
+          message: `Firma: ${formData.company || 'Nicht angegeben'}\nAnfrageart: ${inquiryLabel}\n\n${formData.message}`,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('API request failed');
+      }
+
       setStatus('success');
       setFormData({
         name: '',
@@ -48,7 +67,8 @@ export default function ContactForm({ inquiryTypes }: ContactFormProps) {
         inquiryType: 'kakaobohnen',
         message: '',
       });
-    } catch {
+    } catch (error) {
+      console.error('Form submission error:', error);
       setStatus('error');
     }
   };

@@ -6,9 +6,9 @@ import CardGrid from '@/components/CardGrid';
 import Timeline from '@/components/Timeline';
 
 export const metadata: Metadata = {
-  title: 'Transport & Logistik',
+  title: 'Transport & Logistik | IMIDIA',
   description:
-    'Zuverlässige Transportlösungen für Ihre Waren. Regional, national und international – mit Termintreue und Transparenz.',
+    'IMIDIA Handel, Vertrieb und Service bietet zuverlässige Transportlösungen für Ihre Waren. Regional, national und international – mit Termintreue und Transparenz.',
 };
 
 export default async function TransportPage() {

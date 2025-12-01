@@ -6,7 +6,7 @@ import Testimonials from '@/components/Testimonials';
 
 export default async function HomePage() {
   const siteData = await getSiteData();
-  const { hero, introduction, services, whyElimidia, cta } = siteData.pages.home;
+  const { hero, introduction, services, whyImidia, cta } = siteData.pages.home;
 
   return (
     <>
@@ -48,25 +48,25 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Why Elimidia */}
+      {/* Why IMIDIA */}
       <section
         className={`section-padding ${
-          whyElimidia.backgroundColor === 'light' ? 'bg-white' : 'bg-sand-100'
+          whyImidia.backgroundColor === 'light' ? 'bg-white' : 'bg-sand-100'
         }`}
       >
         <div className="container-custom">
           <div className="text-center mb-12">
-            {whyElimidia.subtitle && (
+            {whyImidia.subtitle && (
               <p className="text-navy-600 font-medium mb-2">
-                {whyElimidia.subtitle}
+                {whyImidia.subtitle}
               </p>
             )}
             <h2 className="text-3xl md:text-4xl font-bold text-cocoa-900">
-              {whyElimidia.title}
+              {whyImidia.title}
             </h2>
           </div>
-          {whyElimidia.items && (
-            <CardGrid items={whyElimidia.items} columns={4} variant="feature" />
+          {whyImidia.items && (
+            <CardGrid items={whyImidia.items} columns={4} variant="feature" />
           )}
         </div>
       </section>

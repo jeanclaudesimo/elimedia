@@ -2,17 +2,20 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import CookieConsent from '@/components/CookieConsent';
 import { getSiteData } from '@/lib/api';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Elimidia - Premium Kakaohandel & Transport',
-    template: '%s | Elimidia',
+    default: 'IMIDIA - Kakaobohnen, Kakaopulver & Transport',
+    template: '%s | IMIDIA',
   },
   description:
-    'Elimidia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand.',
+    'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand.',
   keywords: [
     'Kakaobohnen',
+    'Kakaopulver',
     'Kakaohandel',
     'Transport',
     'Logistik',
@@ -20,10 +23,11 @@ export const metadata: Metadata = {
     'Köln',
     'B2B',
     'Premium Kakao',
+    'Schokolade',
   ],
-  authors: [{ name: 'Elimidia' }],
-  creator: 'Elimidia',
-  publisher: 'Elimidia',
+  authors: [{ name: 'IMIDIA Handel, Vertrieb und Service' }],
+  creator: 'IMIDIA',
+  publisher: 'IMIDIA',
   formatDetection: {
     email: false,
     address: false,
@@ -32,10 +36,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'de_DE',
-    siteName: 'Elimidia',
-    title: 'Elimidia - Premium Kakaohandel & Transport',
+    siteName: 'IMIDIA',
+    title: 'IMIDIA - Kakaobohnen, Kakaopulver & Transport',
     description:
-      'Elimidia ist Ihr zuverlässiger Partner für hochwertigen Kakaohandel und professionelle Transportdienstleistungen.',
+      'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen.',
   },
   robots: {
     index: true,
@@ -67,6 +71,10 @@ export default async function RootLayout({
           legalLinks={siteData.footer.legalLinks}
           socialLinks={siteData.socialLinks}
         />
+        {siteData.contact.whatsapp && (
+          <WhatsAppButton phoneNumber={siteData.contact.whatsapp} />
+        )}
+        <CookieConsent />
       </body>
     </html>
   );

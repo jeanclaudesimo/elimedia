@@ -17,8 +17,10 @@ export interface ContactInfo {
   city: string;
   country: string;
   phone: string;
+  whatsapp?: string;
   email: string;
   openingHours?: string;
+  vatId?: string;
 }
 
 // Social Media Links
@@ -111,7 +113,7 @@ export interface ContactFormData {
   company?: string;
   email: string;
   phone?: string;
-  inquiryType: 'kakaobohnen' | 'transport' | 'beides' | 'sonstiges';
+  inquiryType: 'kakaobohnen' | 'kakaopulver' | 'transport' | 'beides' | 'sonstiges';
   message: string;
 }
 
@@ -120,7 +122,7 @@ export interface HomePageData {
   hero: HeroData;
   introduction: Section;
   services: Section;
-  whyElimidia: Section;
+  whyImidia: Section;
   cta: Section;
 }
 
