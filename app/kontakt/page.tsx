@@ -130,15 +130,24 @@ export default async function ContactPage() {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="mt-8 bg-sand-200 rounded-2xl p-8 text-center">
-                <div className="w-16 h-16 bg-sand-300 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <IconComponent name="map" className="w-8 h-8 text-cocoa-500" />
-                </div>
-                <h4 className="font-semibold text-cocoa-800 mb-2">Standort</h4>
-                <p className="text-cocoa-600 text-sm">
-                  Hier kann später eine interaktive Karte eingebunden werden (z.B. Google Maps oder OpenStreetMap).
-                </p>
+              {/* OpenStreetMap */}
+              <div className="mt-8 rounded-2xl overflow-hidden shadow-lg">
+                <iframe
+                  title="IMIDIA Standort"
+                  width="100%"
+                  height="250"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=7.0150%2C50.9580%2C7.0250%2C50.9650&layer=mapnik&marker=50.9615%2C7.0200"
+                />
+                <a
+                  href="https://www.openstreetmap.org/?mlat=50.9615&mlon=7.0200#map=16/50.9615/7.0200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-cocoa-800 text-white text-center py-3 text-sm hover:bg-cocoa-900 transition-colors"
+                >
+                  Größere Karte anzeigen →
+                </a>
               </div>
             </div>
           </div>
