@@ -20,12 +20,12 @@ export default function Footer({
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-cocoa-900 text-sand-100">
+    <footer className="bg-dark-950 text-sand-100">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Firmeninfo */}
           <div className="lg:col-span-1">
-            <Logo variant="light" className="mb-6" />
+            <Logo className="mb-6" />
             <p className="text-sand-300 text-sm leading-relaxed mb-6">
               {description}
             </p>
@@ -114,7 +114,7 @@ export default function Footer({
             <p className="text-sand-300 mb-4">{contact.openingHours}</p>
             <Link
               href="/kontakt"
-              className="inline-flex items-center gap-2 text-navy-300 hover:text-navy-200 transition-colors"
+              className="inline-flex items-center gap-2 text-gold-400 hover:text-gold-300 transition-colors"
             >
               <span>Nachricht senden</span>
               <svg
@@ -135,7 +135,7 @@ export default function Footer({
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-cocoa-800">
+        <div className="mt-12 pt-8 border-t border-dark-700">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sand-400 text-sm">
               &copy; {currentYear} {contact.company}. Alle Rechte vorbehalten.

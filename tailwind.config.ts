@@ -9,36 +9,36 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Elimidia Brand Colors
-        // Primär: Seriöses, dunkles Braun (Kakao / Natur)
-        cocoa: {
-          50: '#faf6f3',
-          100: '#f2e8e0',
-          200: '#e4cfc0',
-          300: '#d3b19a',
-          400: '#bf8e72',
-          500: '#ae7355',
-          600: '#9a5f47',
-          700: '#7d4b3a',
-          800: '#674034',
-          900: '#55372e',
-          950: '#2e1b17',
+        // Elimedia Brand Colors (basierend auf Logo)
+        // Primär: Gold-Töne (Logo-Akzent)
+        gold: {
+          50: '#fefbf3',
+          100: '#fcf5e1',
+          200: '#f9ecc8',
+          300: '#f4e38b',
+          400: '#f4dd62',
+          500: '#dab84c',
+          600: '#c4993a',
+          700: '#b6862f',
+          800: '#b2802c',
+          900: '#8a6322',
+          950: '#5c4217',
         },
-        // Akzent: Tiefes Blau (Zuverlässigkeit / Logistik)
-        navy: {
-          50: '#f0f5fa',
-          100: '#dce8f3',
-          200: '#c0d5e9',
-          300: '#94b9da',
-          400: '#6396c5',
-          500: '#4079b0',
-          600: '#326095',
-          700: '#2a4e79',
-          800: '#274365',
-          900: '#253a55',
-          950: '#182538',
+        // Sekundär: Dunkles Blau-Grau (Logo-Hintergrund)
+        dark: {
+          50: '#f4f4f6',
+          100: '#e4e5e9',
+          200: '#c9cbd3',
+          300: '#a3a7b3',
+          400: '#7d8291',
+          500: '#5c6173',
+          600: '#494d5c',
+          700: '#3d404d',
+          800: '#20222b',
+          900: '#191b24',
+          950: '#11121b',
         },
-        // Beige für Hintergründe
+        // Beige für Hintergründe (warm, passend zu Gold)
         sand: {
           50: '#fdfcfa',
           100: '#f9f6f1',
@@ -51,6 +51,33 @@ const config: Config = {
           800: '#8c725b',
           900: '#735f4c',
           950: '#3d3127',
+        },
+        // Aliase für Rückwärtskompatibilität
+        cocoa: {
+          50: '#fefbf3',
+          100: '#fcf5e1',
+          200: '#f9ecc8',
+          300: '#f4e38b',
+          400: '#f4dd62',
+          500: '#dab84c',
+          600: '#c4993a',
+          700: '#b6862f',
+          800: '#b2802c',
+          900: '#8a6322',
+          950: '#5c4217',
+        },
+        navy: {
+          50: '#f4f4f6',
+          100: '#e4e5e9',
+          200: '#c9cbd3',
+          300: '#a3a7b3',
+          400: '#7d8291',
+          500: '#5c6173',
+          600: '#494d5c',
+          700: '#3d404d',
+          800: '#20222b',
+          900: '#191b24',
+          950: '#11121b',
         },
         // Standard Colors
         background: "var(--background)",

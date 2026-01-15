@@ -20,7 +20,7 @@ export default function Header({ navigation }: HeaderProps) {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-dark-900/95 backdrop-blur-sm shadow-sm">
       <div className="container-custom">
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -54,7 +54,7 @@ export default function Header({ navigation }: HeaderProps) {
           {/* Mobile Menu Button */}
           <button
             type="button"
-            className="md:hidden p-2 text-cocoa-700 hover:text-cocoa-900"
+            className="md:hidden p-2 text-sand-200 hover:text-white"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Menü öffnen"
           >
