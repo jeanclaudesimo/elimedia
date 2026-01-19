@@ -8,14 +8,13 @@ import { getSiteData } from '@/lib/api';
 
 export const metadata: Metadata = {
   title: {
-    default: 'IMIDIA - Kakaobohnen, Kakaopulver & Transport',
+    default: 'IMIDIA - Kakaobohnen & Transport',
     template: '%s | IMIDIA',
   },
   description:
-    'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand.',
+    'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand.',
   keywords: [
     'Kakaobohnen',
-    'Kakaopulver',
     'Kakaohandel',
     'Transport',
     'Logistik',
@@ -37,9 +36,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'de_DE',
     siteName: 'IMIDIA',
-    title: 'IMIDIA - Kakaobohnen, Kakaopulver & Transport',
+    title: 'IMIDIA - Kakaobohnen & Transport',
     description:
-      'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen.',
+      'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen und professionelle Transportdienstleistungen.',
   },
   robots: {
     index: true,

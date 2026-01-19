@@ -113,7 +113,7 @@ export interface ContactFormData {
   company?: string;
   email: string;
   phone?: string;
-  inquiryType: 'kakaobohnen' | 'kakaopulver' | 'transport' | 'beides' | 'sonstiges';
+  inquiryType: 'kakaobohnen' | 'transport' | 'beides' | 'sonstiges';
   message: string;
 }
 

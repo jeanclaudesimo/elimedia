@@ -13,8 +13,8 @@ export const siteData: SiteData = {
   meta: {
     siteName: 'IMIDIA',
     slogan: 'Qualität verbindet – von der Bohne bis zur Lieferung',
-    description: 'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen. Wir verbinden Qualität mit Zuverlässigkeit.',
-    keywords: ['Kakaobohnen', 'Kakaopulver', 'Kakaohandel', 'Transport', 'Logistik', 'Lebensmittelhandel', 'Köln', 'B2B', 'Premium Kakao', 'Schokolade'],
+    description: 'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für hochwertige Kakaobohnen und professionelle Transportdienstleistungen. Wir verbinden Qualität mit Zuverlässigkeit.',
+    keywords: ['Kakaobohnen', 'Kakaohandel', 'Transport', 'Logistik', 'Lebensmittelhandel', 'Köln', 'B2B', 'Premium Kakao', 'Schokolade'],
     foundingDate: '2025-06-30',
   },
 
@@ -64,8 +64,8 @@ export const siteData: SiteData = {
     home: {
       hero: {
         title: 'IMIDIA',
-        subtitle: 'Ihr Partner für Premium-Kakaobohnen, Kakaopulver und zuverlässige Transporte',
-        description: 'Wir verbinden erstklassigen Handel mit Kakaobohnen und Kakaopulver mit professioneller Logistik. Vertrauen Sie auf Qualität, Zuverlässigkeit und Expertise im Lebensmittelhandel.',
+        subtitle: 'Ihr Partner für Premium-Kakaobohnen und zuverlässige Transporte',
+        description: 'Wir verbinden erstklassigen Handel mit Kakaobohnen mit professioneller Logistik. Vertrauen Sie auf Qualität, Zuverlässigkeit und Expertise im Lebensmittelhandel.',
         primaryCta: {
           text: 'Jetzt anfragen',
           href: '/kontakt',
@@ -80,7 +80,7 @@ export const siteData: SiteData = {
         id: 'intro',
         title: 'Willkommen bei IMIDIA',
         subtitle: 'Qualität und Zuverlässigkeit aus einer Hand',
-        description: 'IMIDIA Handel, Vertrieb und Service vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen und Kakaopulver sowie professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
+        description: 'IMIDIA Handel, Vertrieb und Service vereint zwei Kernkompetenzen unter einem Dach: Den Handel mit hochwertigen Kakaobohnen sowie professionelle Transportdienstleistungen. Seit unserer Gründung am 30. Juni 2025 setzen wir auf Qualität, Transparenz und partnerschaftliche Zusammenarbeit – sowohl mit Geschäftskunden als auch mit Privatpersonen.',
         imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80',
         imagePosition: 'right',
       },
@@ -92,8 +92,8 @@ export const siteData: SiteData = {
           {
             id: 'cocoa',
             icon: 'cocoa',
-            title: 'Kakaobohnen & Kakaopulver',
-            description: 'Hochwertige Kakaobohnen und Kakaopulver aus ausgewählten Anbaugebieten. Für Röstereien, Hersteller und Genussmanufakturen.',
+            title: 'Kakaobohnen',
+            description: 'Hochwertige Kakaobohnen aus ausgewählten Anbaugebieten. Für Röstereien, Hersteller und Genussmanufakturen.',
             imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=600&q=80',
             linkText: 'Mehr erfahren',
             linkHref: '/leistungen#kakao',
@@ -172,7 +172,7 @@ export const siteData: SiteData = {
         id: 'our-story',
         title: 'Unsere Geschichte',
         subtitle: 'Aus Leidenschaft für Qualität',
-        description: 'IMIDIA Handel, Vertrieb und Service wurde am 30. Juni 2025 in Köln-Holweide gegründet – mit einer klaren Vision: Erstklassigen Handel mit Kakaobohnen und Kakaopulver sowie zuverlässige Transportdienstleistungen aus einer Hand anzubieten.\n\nUnser Gründungsteam bringt umfassende Erfahrung im Lebensmittelhandel und in der Logistikbranche mit. Diese Expertise nutzen wir, um unseren Kunden einen Service zu bieten, der höchsten Ansprüchen gerecht wird.\n\nAls junges Unternehmen sind wir agil, kundenorientiert und stets offen für neue Partnerschaften. Wir glauben daran, dass Qualität und Zuverlässigkeit die Grundlage jeder erfolgreichen Geschäftsbeziehung sind.',
+        description: 'IMIDIA Handel, Vertrieb und Service wurde am 30. Juni 2025 in Köln-Holweide gegründet – mit einer klaren Vision: Erstklassigen Handel mit Kakaobohnen sowie zuverlässige Transportdienstleistungen aus einer Hand anzubieten.\n\nUnser Gründungsteam bringt umfassende Erfahrung im Lebensmittelhandel und in der Logistikbranche mit. Diese Expertise nutzen wir, um unseren Kunden einen Service zu bieten, der höchsten Ansprüchen gerecht wird.\n\nAls junges Unternehmen sind wir agil, kundenorientiert und stets offen für neue Partnerschaften. Wir glauben daran, dass Qualität und Zuverlässigkeit die Grundlage jeder erfolgreichen Geschäftsbeziehung sind.',
         imageUrl: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&q=80',
         imagePosition: 'right',
       },
@@ -220,7 +220,7 @@ export const siteData: SiteData = {
         id: 'quality-focus',
         title: 'Qualität als Versprechen',
         subtitle: 'Unser Anspruch an uns selbst',
-        description: 'Bei IMIDIA ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne und jedes Kakaopulver, das wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
+        description: 'Bei IMIDIA ist Qualität kein Zufall, sondern das Ergebnis konsequenter Arbeit. Jede Kakaobohne, die wir handeln, wird auf Herkunft, Anbaumethoden und Geschmacksprofil geprüft. Jeder Transport wird sorgfältig geplant und überwacht.\n\nWir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Und wir investieren kontinuierlich in die Weiterbildung unseres Teams, um Ihnen stets den besten Service zu bieten.',
         imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80',
         imagePosition: 'right',
         backgroundColor: 'light',
@@ -233,14 +233,14 @@ export const siteData: SiteData = {
     services: {
       hero: {
         title: 'Unsere Leistungen',
-        subtitle: 'Premium-Kakaobohnen, Kakaopulver und professionelle Transportlösungen',
+        subtitle: 'Premium-Kakaobohnen und professionelle Transportlösungen',
         backgroundImage: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=1920&q=80',
       },
       cocoa: {
         id: 'cocoa-section',
-        title: 'Kakaobohnen & Kakaopulver',
+        title: 'Kakaobohnen',
         subtitle: 'Qualität, die man schmeckt',
-        description: 'Unsere Kakaobohnen und unser Kakaopulver stammen aus sorgfältig ausgewählten Anbaugebieten weltweit. Wir legen größten Wert auf Qualität, nachhaltige Anbaumethoden und faire Handelsbedingungen.\n\nOb Sie eine Rösterei betreiben, Schokolade herstellen oder eine Manufaktur führen – wir liefern Ihnen die Rohstoffe, die Ihre Produkte besonders machen.',
+        description: 'Unsere Kakaobohnen stammen aus sorgfältig ausgewählten Anbaugebieten weltweit. Wir legen größten Wert auf Qualität, nachhaltige Anbaumethoden und faire Handelsbedingungen.\n\nOb Sie eine Rösterei betreiben, Schokolade herstellen oder eine Manufaktur führen – wir liefern Ihnen die Rohstoffe, die Ihre Produkte besonders machen.',
         imageUrl: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80',
         imagePosition: 'left',
         items: [
@@ -248,7 +248,7 @@ export const siteData: SiteData = {
             id: 'cocoa-origin',
             icon: 'map',
             title: 'Ausgewählte Herkunft',
-            description: 'Kakaobohnen und Kakaopulver aus den besten Anbauregionen Westafrikas, Südamerikas und Asiens.',
+            description: 'Kakaobohnen aus den besten Anbauregionen Westafrikas, Südamerikas und Asiens.',
           },
           {
             id: 'cocoa-quality',
@@ -260,7 +260,7 @@ export const siteData: SiteData = {
             id: 'cocoa-variety',
             icon: 'layers',
             title: 'Vielfältige Sorten',
-            description: 'Criollo, Forastero, Trinitario – wir bieten die passende Sorte für Ihr Produkt. Dazu hochwertiges Kakaopulver.',
+            description: 'Criollo, Forastero, Trinitario – wir bieten die passende Sorte für Ihr Produkt.',
           },
           {
             id: 'cocoa-quantity',
@@ -449,11 +449,10 @@ export const siteData: SiteData = {
       },
       formSection: {
         title: 'Schreiben Sie uns',
-        description: 'Haben Sie Fragen zu unseren Kakaobohnen oder Kakaopulver, oder benötigen Sie ein Transportangebot? Füllen Sie einfach das Formular aus – wir melden uns schnellstmöglich bei Ihnen.',
+        description: 'Haben Sie Fragen zu unseren Kakaobohnen oder benötigen Sie ein Transportangebot? Füllen Sie einfach das Formular aus – wir melden uns schnellstmöglich bei Ihnen.',
       },
       inquiryTypes: [
         { value: 'kakaobohnen', label: 'Kakaobohnen' },
-        { value: 'kakaopulver', label: 'Kakaopulver' },
         { value: 'transport', label: 'Transport' },
         { value: 'beides', label: 'Beides' },
         { value: 'sonstiges', label: 'Sonstiges' },
@@ -550,7 +549,7 @@ export const siteData: SiteData = {
       name: 'Thomas Müller',
       company: 'Schokoladenmanufaktur Rhein',
       role: 'Geschäftsführer',
-      quote: 'Die Qualität der Kakaobohnen und des Kakaopulvers von IMIDIA hat uns sofort überzeugt. Zuverlässig, transparent und immer pünktlich – genau der Partner, den wir gesucht haben.',
+      quote: 'Die Qualität der Kakaobohnen von IMIDIA hat uns sofort überzeugt. Zuverlässig, transparent und immer pünktlich – genau der Partner, den wir gesucht haben.',
       rating: 5,
     },
     {
@@ -575,7 +574,7 @@ export const siteData: SiteData = {
   // FOOTER
   // ==========================================
   footer: {
-    description: 'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für Premium-Kakaobohnen, Kakaopulver und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand – seit 2025.',
+    description: 'IMIDIA Handel, Vertrieb und Service ist Ihr zuverlässiger Partner für Premium-Kakaobohnen und professionelle Transportdienstleistungen. Qualität und Zuverlässigkeit aus einer Hand – seit 2025.',
     quickLinks: [
       { id: 'footer-about', label: 'Über uns', href: '/ueber-uns' },
       { id: 'footer-services', label: 'Leistungen', href: '/leistungen' },

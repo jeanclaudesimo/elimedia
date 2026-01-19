@@ -7,7 +7,7 @@ import { IconComponent } from '@/components/CardGrid';
 export const metadata: Metadata = {
   title: 'Kontakt | IMIDIA',
   description:
-    'Kontaktieren Sie IMIDIA Handel, Vertrieb und Service für Anfragen zu Kakaobohnen, Kakaopulver und Transportdienstleistungen. Wir freuen uns auf Ihre Nachricht.',
+    'Kontaktieren Sie IMIDIA Handel, Vertrieb und Service für Anfragen zu Kakaobohnen und Transportdienstleistungen. Wir freuen uns auf Ihre Nachricht.',
 };
 
 export default async function ContactPage() {
