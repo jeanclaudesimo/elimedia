@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const PORTAL_API_URL = 'http://portal.digitalssolutions.de/api/contact/submit';
-const TENANT_KEY = 'c7b76b7d31ecd6c209c42c6176a76f30ac63ac344d78fdd14de05ae6b81f2760';
+const TENANT_KEY = '93b0c76e36a4b32bf5db96d44aa3c222aff3567138614940c48840e8af70aa3c';
 
 export async function POST(request: NextRequest) {
   try {
