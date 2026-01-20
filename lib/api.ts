@@ -1,11 +1,38 @@
 import type { SiteData } from '@/types';
 import { siteData } from '@/data/site-data';
+import { getPortalConfig, mapPortalConfigToContact } from './portal';
 
 /**
  * Returns the complete site data
- * Imports directly from the data file to work at build time
+ * Merges hardcoded data with Portal config (if available)
  */
 export async function getSiteData(): Promise<SiteData> {
+  // Versuche Portal-Daten zu laden
+  const portalConfig = await getPortalConfig();
+
+  if (portalConfig) {
+    const portalContact = mapPortalConfigToContact(portalConfig);
+
+    if (portalContact) {
+      // Merge Portal-Daten mit hardcoded Daten (Portal hat Priorität)
+      return {
+        ...siteData,
+        contact: {
+          ...siteData.contact,
+          ...(portalContact.company && { company: portalContact.company }),
+          ...(portalContact.street && { street: portalContact.street }),
+          ...(portalContact.city && { city: portalContact.city }),
+          ...(portalContact.country && { country: portalContact.country }),
+          ...(portalContact.phone && { phone: portalContact.phone }),
+          ...(portalContact.email && { email: portalContact.email }),
+          ...(portalContact.whatsapp && { whatsapp: portalContact.whatsapp }),
+          ...(portalContact.openingHours && { openingHours: portalContact.openingHours }),
+        },
+      };
+    }
+  }
+
+  // Fallback auf hardcoded Daten
   return siteData;
 }
 
