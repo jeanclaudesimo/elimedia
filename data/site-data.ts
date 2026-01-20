@@ -302,6 +302,18 @@ export const siteData: SiteData = {
             title: 'Sicher',
             description: 'Versicherte Transporte und geschultes Personal für maximale Sicherheit.',
           },
+          {
+            id: 'transport-sameday',
+            icon: 'clock',
+            title: 'Same Day Delivery',
+            description: 'Eilige Sendungen noch am selben Tag zugestellt – schnell und zuverlässig.',
+          },
+          {
+            id: 'transport-jit',
+            icon: 'calendar',
+            title: 'Just In Time Delivery',
+            description: 'Punktgenaue Lieferung zum gewünschten Zeitpunkt für Ihre Produktionsplanung.',
+          },
         ],
       },
       additionalServices: {
@@ -425,6 +437,18 @@ export const siteData: SiteData = {
             icon: 'settings',
             title: 'Individualität',
             description: 'Keine Lösung von der Stange. Wir passen uns Ihren Anforderungen an.',
+          },
+          {
+            id: 'feature-sameday',
+            icon: 'truck',
+            title: 'Same Day Delivery',
+            description: 'Eilige Sendungen noch am selben Tag zugestellt – schnell und zuverlässig.',
+          },
+          {
+            id: 'feature-jit',
+            icon: 'check',
+            title: 'Just In Time Delivery',
+            description: 'Punktgenaue Lieferung zum gewünschten Zeitpunkt für Ihre Produktionsplanung.',
           },
         ],
       },
